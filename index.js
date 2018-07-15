@@ -31,5 +31,5 @@ function removeLastDriver() {
 }
 
 function removeFristDriver() {
-  return drivers.slice(1);
+  return drivers.slice(1,drivers.length);
 }
